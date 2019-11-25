@@ -4,7 +4,6 @@ def square_array(numbers)
   numbers.each do |num|
    new_numbers<<(num**2)
   return
-  new_numbers
+  square_array(new_numbers)
 end
 end
-print square_array(new_numbers)

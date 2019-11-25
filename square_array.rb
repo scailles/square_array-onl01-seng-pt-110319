@@ -1,3 +1,4 @@
 numbers=[1,2,3]
-def end
+def square_array(numbers)
+  numbers.each do {|num|**2}
 end

@@ -1,6 +1,6 @@
-def square_array(numbers) do
+square_array(numbers) do
   numbers=[1,2,3]
-array.each do |num|
+numbers.each do |num|
   new_numbers<<(num)**2
 end
 return new_numbers

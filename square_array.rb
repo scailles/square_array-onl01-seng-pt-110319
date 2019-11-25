@@ -5,5 +5,6 @@ def square_array(numbers)
    new_numbers<<(num**2)
   end
   return
+  new_numbers
   square_array(new_numbers)
 end
